@@ -1,0 +1,107 @@
+.calendarPage {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #62bae6;
+}
+.calendarPage header {
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendarPage h1 {
+  color: rgb(5, 5, 5);
+  margin: 0;
+}
+
+.calendarPage main {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 270px 220px 220px 220px 220px 220px 220px 220px;
+}
+.calendarPage .slot {
+  background-color: rgb(252, 247, 247);
+  margin: 5px 3px;
+  padding: 15px 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.calendarPage .slotrojo {
+  background-color: rgb(243, 14, 14);
+  margin: 5px 3px;
+  padding: 15px 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.calendarPage .slotamarillo {
+  background-color: rgb(229, 233, 18);
+  margin: 5px 3px;
+  padding: 15px 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.calendarPage .slotgris {
+  background-color: rgb(168, 168, 162);
+  margin: 5px 3px;
+  padding: 15px 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.calendarPage .slotverde {
+  background-color: rgb(87, 243, 14);
+  margin: 5px 3px;
+  padding: 15px 10px;
+  text-align: center;
+  align-items: center;
+}
+
+
+.calendarPage .dayname {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  background-image: linear-gradient(#ff9933, #e97100);
+}
+.calendarPage .deletebtn {
+  height: 10px;
+  width: auto;
+  cursor: pointer;
+}
+.calendarPage option {
+  border: solid 3px #a71e1e;
+}
+.calendarPage select {
+  padding: 10px;
+  border: solid 3px grey;
+  border-radius: 10px;
+}
+
+#menu{
+  background-color: #000;
+
+}
+
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li{
+  display: inline-block;
+}
+
+#menu ul li a{
+  color: white;
+  display: block;
+  padding: 20px 435px;
+  text-decoration: none;
+}
+
+#menu ul li a:hover{
+  background-color:  #ff9933;
+}
